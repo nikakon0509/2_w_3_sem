@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+
+    <link rel = "stylesheet" href = "./style/main.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body> 
+   
+    <div class="container-alert"> 
+        <div class="row"> 
+          <div class="col"> 
+            <div class="alert alert-success alert-dismissible alert-fixed fade show" role="alert"> 
+              You have been successfully registered! 
+            </div> 
+          </div> 
+        </div> 
+    </div>
+
+    <section class="menu_top">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light " style="background-color: white;">
+
+                <div class="container">
+                    <a href="index.html" class="navbar-brand mb-0 ">
+                        <img class="d-inline-block align-top" src="./image/logo.svg" width="70" height="65" alt="">
+                    </a>
+            
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse justify-content-center  styles" id="navbarNav">
+                        <ul class="navbar-nav gap-3  align-items-center-md ">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link ">Home</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="about.html" class="nav-link">The Area</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="the_area.html" class="nav-link">The Hut</a>
+                            </li>
+
+                            <li class="nav-item dropdown mb-md-0 mb-4  " >
+                                <a href="the_area.html" class="nav-link dropdown-toggle align-items-center" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" > 
+                                    <img src="./image/denmark.svg" width="25" height="16" alt="">
+                                </a>
+
+                               
+
+                                 <ul id="width_menu" class="dropdown-menu  "  aria-labelledby="navbarDropdown">
+                                    <li ><a href="#" class="dropdown-item ps-md-2 ps-0" >
+                                        <img src="./image/germany.svg" width="25" height="16" alt="">
+                                    </a></li>
+                                    <li > <a href="#" class="dropdown-item ps-md-2 ps-0" >
+                                        <img src="./image/united-kingdom.svg" width="25" height="16" alt="">
+                                    </a></li>
+                                </ul> 
+                            </li>
+                        </ul>
+            
+                    </div>
+
+                    <form  class="d-flex">
+                        <a href="register.html"  id="button_styles">Sign up</a>
+                    </form>
+                
+            </nav>
+        </div>
+    </section>
+
+    <section id="great-carousel">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators  justify-content-end">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('./image/willa_1.jpg');">
+                    <div class="carousel-item-content text-white">
+                        <div class="carousel-item-text">
+                            <h1 class="h1_text1">Find peace in the Forest</h1>
+                            <p class="p_text1">Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
+                        </div>
+                        <div class="book_now d-flex"> 
+                            <div>
+                                <button type="submit" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  data-bs-whatever="Enter you email.." class="btn text-white" id="button_styles_blok" href="">Book now</button>
+                            </div>
+                            <div class="flex-column ">
+                                <button type="submit" class="btn " id="button_info_blok" href="">
+                                    <p>from</p>
+                                    <h4>4800$</h4>
+                                    <p>per night</p>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item " style="background-image: url('./image/willa_2.jpg');">
+                    <div class="carousel-item-content text-white">
+                        <div class="carousel-item-text">
+                            <h1 class="h1_text1">Find peace in the Forest</h1>
+                            <p class="p_text1">Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
+                        </div>
+                        <div class="book_now d-flex"> 
+                            <div>
+                                <button type="submit" class="btn text-white" id="button_styles_blok" href="">Book now</button>
+                            </div>
+                            <div class="flex-column ">
+                                <button type="submit" class="btn " id="button_info_blok" href="">
+                                    <p>from</p>
+                                    <h4>6000$</h4>
+                                    <p>per night</p>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item " style="background-image: url('./image/willa_3.jpg');">
+                    <div class="carousel-item-content text-white">
+                        <div class="carousel-item-text">
+                            <h1 class="h1_text1">Find peace in the Forest</h1>
+                            <p class="p_text1">Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
+                        </div>
+                        <div class="book_now d-flex"> 
+                            <div>
+                                <button type="submit" class="btn text-white" id="button_styles_blok" href="">Book now</button>
+                            </div>
+                            <div class="flex-column ">
+                                <button type="submit" class="btn " id="button_info_blok" href="">
+                                    <p>from</p>
+                                    <h4>5400$</h4>
+                                    <p>per night</p>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="block_2">
+                <div class="d-flex flex-column flex-md-row  justify-content-center " id="main_row"  >
+
+                        <div class="text_info_bl">
+                            <div class="align">
+                                <h2>The Cabins</h2>
+                                <p class="pt-2">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. </p>
+                                <a href="the_area.html" class="but_text">Read more</a>
+                            </div>
+                        </div>
+                    <div class="image">
+                        <img class="image_block_2 " id="image_cabin"  src="./image/cabin1.jpg" alt="">
+                    </div>
+                </div>
+    </section>
+
+    <div style="padding-bottom: 70px;">
+        <hr class="hr_line">
+    </div>
+
+    <section id="tri_block">
+        <div class="container" id="otstup">
+            <h1 id="zagolovok" class="mb-5   text-center">Hut options</h1>
+            <div class="row d-flex flex-lg-row flex-column gap-md-2  gap-lg-0" id="gap_all">
+                <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center">
+                    <div id="foto-1" class=" foto-c d-flex flex-column flex-lg-row">
+                        <div class="img__wrap">
+                            <img class="img__img" src="./image/f3.jpg" alt="">
+                            <div class="img__description">
+                                <div id="move_text">                                
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h2 id="h2_t">Scilla</h2>
+                                                <div class="d-flex">
+                                                    <svg style="margin-bottom: 0 !important; margin-top: 4px !important;" xmlns="http:www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bbi-geo-fill" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+                                                    </svg>
+                                                    <p id="Susterberg_style">Susterberg</p>
+                                                </div>
+                                            </div>
+                                            <p id="p_t">The holiday home is located 15 km and 19 km from attractions such as the DorEstate and the TivoliVredenburg Concert Hall, respectively.</p>
+                                            <div class="info-block d-flex mb-3 pt-4">
+
+                                                <div class="rate  fs-6 ">
+                                                    9,2
+                                                </div>
+                                                <div class="people ms-3  text-white d-flex justify-content-center align-items-center">
+                                                    max 4 people
+                                                </div>
+                                                
+                        
+                                            </div>
+                                            <div class="pt-5">
+                                                <a href="the_area.html" id="but_t">Read more</a>
+                                            </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6  col-12 d-flex justify-content-center">
+                    <div id="foto-1" class=" foto-c d-flex flex-column flex-lg-row">
+                        <div class="img__wrap">
+                            <img class="img__img" src="./image/f1.jpg" alt="">
+                            <div class="img__description">
+                                <div id="move_text">                                
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h2 id="h2_t">Scilla</h2>
+                                                <div class="d-flex">
+                                                    <svg style="margin-bottom: 0 !important; margin-top: 4px !important;" xmlns="http:www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bbi-geo-fill" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+                                                    </svg>
+                                                    <p id="Susterberg_style">Susterberg</p>
+                                                </div>
+                                            </div>
+                                            <p id="p_t">The holiday home is located 15 km and 19 km from attractions such as the DorEstate and the TivoliVredenburg Concert Hall, respectively.</p>
+                                            <div class="info-block d-flex mb-3 pt-4">
+
+                                                <div class="rate  fs-6 ">
+                                                    9,6
+                                                </div>
+                                                <div class="people ms-3  text-white d-flex justify-content-center align-items-center">
+                                                    max 6 people
+                                                </div>
+                                                
+                        
+                                            </div>
+                                            <div class="pt-5">
+                                                <a href="the_area.html" id="but_t">Read more</a>
+                                            </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12 col-12  d-flex justify-content-center " id="gap_img">
+                    <div id="foto-1" class=" foto-c d-flex flex-column flex-lg-row">
+                        <div class="img__wrap">
+                            <img class="img__img" src="./image/f2.jpg" alt="">
+                            <div class="img__description">
+                                <div id="move_text">                                
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h2 id="h2_t">Scilla</h2>
+                                                <div class="d-flex">
+                                                    <svg style="margin-bottom: 0 !important; margin-top: 4px !important;" xmlns="http:www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bbi-geo-fill" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+                                                    </svg>
+                                                    <p id="Susterberg_style">Susterberg</p>
+                                                </div>
+                                            </div>
+                                            <p id="p_t">The holiday home is located 15 km and 19 km from attractions such as the DorEstate and the TivoliVredenburg Concert Hall, respectively.</p>
+                                            <div class="info-block d-flex mb-3 pt-4">
+
+                                                <div class="rate  fs-6 ">
+                                                    9,5
+                                                </div>
+                                                <div class="people ms-3  text-white d-flex justify-content-center align-items-center">
+                                                    max 2 people
+                                                </div>
+                                                
+                        
+                                            </div>
+                                            <div class="pt-5">
+                                                <a href="the_area.html" id="but_t">Read more</a>
+                                            </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="location">
+        <div class=" d-flex flex-column flex-lg-row">
+            <div class="col-lg-6 col-md-12 "  style="background-image: url('./image/map.jpg')">
+                <a href="https://yandex.ru/maps/-/CDXdEFPH">
+                    <img class="image_move" src="./image/we_are_here.svg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-12" id="pad_block" style="background-color: #E9ECE0;">
+                <div class="textic">
+                    <h2>The Forest</h2>
+                    <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.</p>
+                    <a class="button_text" href="the_area.html"> Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h1 id="zagolovok_facilities" class="mb-5  text-center">Facilities</h1>
+        <div class="moving">
+            <div class="row d-flex" id="moving_inside">
+                <div class="col-md-3 col-6 vcenter" id="first">
+                    <img id="first" class="center-image" style="padding-bottom: 0 !important;" src="./image/fridge.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="sec">
+                    <img   class="center-image"  src="./image/kitchen.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6 vcenter " id="first">
+                    <img class="center-image"  src="./image/coffe.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="sec">
+                    <img class="center-image" src="./image/tea.svg" alt="">
+                </div>
+            </div>
+
+            <div class="row d-flex" id="moving_inside">
+                <div class="col-md-3 col-6  vcenter" id="first">
+                    <img class="center-image" src="./image/parking.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="sec">
+                    <img class="center-image"  src="./image/tree.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="first">
+                    <img class="center-image"  src="./image/temp.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6 vcenter" id="sec">
+                    <img class="center-image" src="./image/230v.svg" alt="">
+                </div>
+            </div>
+
+            <div class="row d-flex" id="moving_inside">
+                <div class="col-md-3 col-6   vcenter" id="first">
+                    <img class="center-image" src="./image/parking.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="sec">
+                    <img class="center-image"  src="./image/tree.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6  vcenter" id="first">
+                    <img class="center-image"  src="./image/temp.svg" alt="">
+                </div>
+                <div class="col-md-3 col-6 vcenter" id="sec">
+                    <img class="center-image" src="./image/230v.svg" alt="">
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="twocabinsMore">
+        <div class="main_move d-flex flex-column flex-lg-row">
+            <div id="main_move" class=" col-lg-6 col-md-12 "  style="background-image: url('./image/cabin_more.jpg'); background-position: center;  background-size: cover; ">
+                <a href="about.html">
+                    <img class="cabin_move" src="./image/more_ab_us.svg" alt="">
+                </a>
+            </div>
+            <div id="main_move" class="col-lg-6 col-md-12"  style="background-image: url('./image/cabin_more1.jpg'); background-position: center;  background-size: cover;">
+                <div id="text_more">
+                    <p><span class="span">Take a break</span> from the fuss of outside world <span class="span">with us</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts_info">
+        <div class="container">
+            <div class="d-flex flex-md-row flex-column justify-content-between gaps">
+                <div class="contact_text flex-column " >
+                    <h2>Stay in touch with us</h2>
+                    <p class="pt-lg-5 pt-3"> Vesterborg, Netherland</p>
+                    <div class="pt-lg-4 pb-lg-5 pt-3 pb-4">
+                        <p class="pb-xl-1 ">+123 456 789 000</p>
+                        <p class="paddings_text">info@theglasshuts.com</p>
+                    </div>
+                    <div class="icons_contact d-flex gap-3 ">
+                        <i class=" soc fa-brands fa-instagram"></i>
+                        
+                        <i class=" soc fa-brands fa-facebook"></i>
+                        
+                        <i class=" soc fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+
+                <div class="fotos pt-lg-2 ">
+                    <div>
+                        <img class="image_fon" src="./image/contact_foto.jpg" alt="">
+                    </div>
+                    <div class="d-flex book_button"> 
+                        <div>
+                            <button type="submit" class="btn text-white" id="button_styles_blok_contact" href="">Book now</button>
+                        </div>
+                        <div class="flex-column ">
+                            <button type="submit" class="btn " id="button_info_blok_contact" href="">
+                                <p>from</p>
+                                <h4>4800$</h4>
+                                <p>per night</p>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_block">
+        <div class="container">
+            <div class="d-flex flex-md-row flex-column justify-content-between">
+                <div class="first_col_email flex-column">
+                    <h3 class="padding_zagol">Newsletter</h3>
+                    <div class="email_section">
+                        <form class="form_style">
+                            <i class="far fa-envelope"></i>
+                            <input  type="email" placeholder="Enter email adress" required>
+                            <button href="register.html" type="submit"><i  href="register.html" class="fas fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <p >Sign up to our newsletter for special things and receive 10% off your next order.</p>
+                    </div>
+                    <p class="pad_p"> &copy; 2021 The Glass Huts</p>
+                </div>
+
+                <div class="text_i_icons flex-column">
+                    <div class="d-flex gap_icons ">
+                        <a class="links" href="#">TERMS AND CONDITIONS</a>
+                        <a class="links" href="#">CENCELLATION POLICY</a>
+                        <a  class="links"href="#">PRIVACY POLICY</a>
+                    </div>
+                    <div class="icons_footer d-flex text-end justify-content-end">
+                        
+                        <img class="size" src="./image/paypal.svg" alt="paypal">
+                        <img class="size"  src="./image/mastercard.svg" alt="mastercard">
+                        
+                        <img class="size"  src="./image/visa.svg" alt="visa">
+                        <img   src="./image/bank.svg" alt="bank">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./alert.js"></script>
+
+    <script src="https://kit.fontawesome.com/d0cf96d58f.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

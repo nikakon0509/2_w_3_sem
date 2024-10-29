@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+
+    <link rel = "stylesheet" href = "./style/main.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="menu_top">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light " style="background-color: white;">
+
+                <div class="container">
+                    <a href="index.html" class="navbar-brand mb-0 ">
+                        <img class="d-inline-block align-top" src="./image/logo.svg" width="70" height="65" alt="">
+                    </a>
+            
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse justify-content-center  styles" id="navbarNav">
+                        <ul class="navbar-nav gap-3  align-items-center-md ">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link ">Home</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="about.html" class="nav-link">The area</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="the_area.html" class="nav-link">The Hut</a>
+                            </li>
+
+                            <li class="nav-item dropdown mb-md-0 mb-4  " >
+                                <a href="the_area.html" class="nav-link dropdown-toggle align-items-center" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" > 
+                                    <img src="./image/denmark.svg" width="25" height="16" alt="">
+                                </a>
+
+                               
+
+                                 <ul id="width_menu" class="dropdown-menu  "  aria-labelledby="navbarDropdown">
+                                    <li ><a href="#" class="dropdown-item ps-md-2 ps-0" >
+                                        <img src="./image/germany.svg" width="25" height="16" alt="">
+                                    </a></li>
+                                    <li > <a href="#" class="dropdown-item ps-md-2 ps-0" >
+                                        <img src="./image/united-kingdom.svg" width="25" height="16" alt="">
+                                    </a></li>
+                                </ul> 
+                            </li>
+                        </ul>
+            
+                    </div>
+
+                    <form  class="d-flex">
+                        <a href="register.html"  id="button_styles">Sign up</a>
+                    </form>
+                
+            </nav>
+        </div>
+    </section>
+
+    <section id="image_topp">
+        <div class="content_textIbutton text-center text-white">
+            <h1 class="head_text">The Area</h1>
+            <div class="loc_ation d-flex justify-content-center text-white">
+                <i class="  fas fa-solid fa-location-dot"></i>
+                <p class="locat_text">Vesterborg, Denmark</p>
+            </div>
+            <button type="button" class="main_button_style justify-content-center">Get directions</button>
+        </div>
+    </section>
+
+    <section id="slider_2_0">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12 wrapper">
+                    
+                    <input type="radio" name="slide" id="one" checked>
+                    <input type="radio" name="slide" id="two">
+                    <input type="radio" name="slide" id="three">
+                    <input type="radio" name="slide" id="four">
+                    <input type="radio" name="slide" id="five">
+
+                    <div class="img img-1">
+                        <img src="./image_theArea/nature5.jpg" alt="">
+                    </div>
+
+                    <div class="img img-2">
+                        <img src="./image_theArea/nature1.jpg" alt="">
+                    </div>
+
+                    <div class="img img-3">
+                        <img src="./image_theArea/nature2.jpg" alt="">
+                    </div>
+
+                    <div class="img img-4">
+                        <img src="./image_theArea/nature3.jpg" alt="">
+                    </div>
+
+                    <div class="img img-5">
+                        <img src="./image_theArea/nature4.jpg" alt="">
+                    </div>
+
+                    <div class="sliders">
+                        <label for="one" class="one"></label>
+                        <label for="two" class="two"></label>
+                        <label for="three" class="three"></label>
+                        <label for="four" class="four"></label>
+                        <label for="five" class="five"></label>
+                    </div>
+                </div>
+
+
+                <div class="text_bloc col-md-6 col-12">
+                    <div class="moving_textic">
+                        <h3>Vesterborg</h3>
+                        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</h5>
+                        <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div >
+        <hr class="hr_line">
+    </div>
+
+    <section id="map">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12">
+                    <div class="te_moving">
+                        <h3 class="text_st">Lorem ipsum dolor sit amet, consectetur adipiscing...</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    
+                    <img class="im_move" src="./image_theArea/map.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="padding-top: 30px;">
+        <hr class="hr_line">
+    </div>
+
+    <section id="mapp">
+        <div class="container">
+            <h1 class=" text-md-start text-center">Activities</h1>
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12">
+                    
+                    <img class="img_move" src="./image_theArea/rest2.jpg" alt="">
+                    
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tex_moving">
+                        <h3>Restaurants & shopping</h3>
+                        <a class="a_pad" href="">Lorem ipsum dolor</a>
+                        <a class="pt-5" href="#"></a>
+                        <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="mapp_1">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12">
+                    <div class="tex_moving_1">
+                        <h3>Experiences in nature</h3>
+                        <a class="a_pad" href="">Lorem ipsum dolor</a>
+                        <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    
+                    <img class="img_move_1" src="./image_theArea/act2.jpg" alt="">
+                    
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="mapp">
+        <div class="container">
+            
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12">
+                    
+                    <img class="img_move" src="./image_theArea/act4.jpg" alt="">
+                    
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tex_moving">
+                        <h3>Go for a drive</h3>
+                        <a class="a_pad" href="">Lorem ipsum dolor</a>
+                        <a class="pt-5" href="#"></a>
+                        <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="mapp_1">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-md-row flex-column" >
+                <div class="col-md-6 col-12">
+                    <div class="tex_moving_1">
+                        <h3>Small-town charm</h3>
+                        <a class="a_pad" href="">Lorem ipsum dolor</a>
+                        <p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    
+                    <img class="img_move_1" src="./image_theArea/act3.jpg" alt="">
+                    
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    
+
+    <section id="location_2">
+        <div class="move_image_2">
+            <img href="https://yandex.ru/maps/-/CDXdEFPH" src="./image/we_are_here.svg" alt="">
+        </div>
+    </section>
+
+    <footer id="footer_block">
+        <div class="container">
+            <div class="d-flex flex-md-row flex-column justify-content-between">
+                <div class="first_col_email flex-column">
+                    <h3 class="padding_zagol">Newsletter</h3>
+                    <div class="email_section">
+                        <form class="form_style">
+                            <i class="far fa-envelope"></i>
+                            <input  type="email" placeholder="Enter email adress" required>
+                            <button href="register.html" type="submit"><i class="fas fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <p >Sign up to our newsletter for special things and receive 10% off your next order.</p>
+                    </div>
+                    <p class="pad_p"> &copy; 2021 The Glass Huts</p>
+                </div>
+
+                <div class="text_i_icons flex-column">
+                    <div class="d-flex gap_icons ">
+                        <a class="links" href="#">TERMS AND CONDITIONS</a>
+                        <a class="links" href="#">CENCELLATION POLICY</a>
+                        <a  class="links"href="#">PRIVACY POLICY</a>
+                    </div>
+                    <div class="icons_footer d-flex text-end justify-content-end">
+                        
+                        <img class="size" src="./image/paypal.svg" alt="paypal">
+                        <img class="size"  src="./image/mastercard.svg" alt="mastercard">
+                        
+                        <img class="size"  src="./image/visa.svg" alt="visa">
+                        <img   src="./image/bank.svg" alt="bank">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/d0cf96d58f.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

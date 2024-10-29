@@ -1,0 +1,35 @@
+#gallery {
+    margin: 0 60px;
+    padding-bottom: 100px;
+}
+
+#gallery h1{
+   
+    padding-bottom: 50px;
+    color: #5B6460;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#gallery > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#gallery > div> img{
+    width: 400px;
+    height: 290px;
+    box-shadow: 4px 7px 7px 0px #2b1303;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+#gallery > div> img:hover{
+    filter: contrast(1.5) saturate(1.1);
+    transform: scale(1.03);
+
+}
